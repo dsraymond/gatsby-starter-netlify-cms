@@ -32,8 +32,6 @@ collections:
       - { label: "Featured Image", name: "featuredimage", widget: image }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list" }
-      - { label: "Focus Keyword", name: "yoast_keyword", widget: "string" }
-      - { label: "Meta Description", name: "description", widget: "string" }
 
   - name: "pages"
     label: "Pages"
@@ -52,8 +50,6 @@ collections:
           - { label: Image, name: image, widget: image }
           - { label: Heading, name: heading, widget: string }
           - { label: Subheading, name: subheading, widget: string }
-          - { label: "Focus Keyword", name: "yoast_keyword", widget: "string" }
-          - { label: "Meta Description", name: "description", widget: "string" }
           - {
               label: Mainpitch,
               name: mainpitch,
@@ -137,8 +133,6 @@ collections:
             }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "Focus Keyword", name: "yoast_keyword", widget: "string" }
-          - { label: "Meta Description", name: "description", widget: "string" }
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"
