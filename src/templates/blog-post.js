@@ -69,7 +69,7 @@ const BlogPost = ({ data }) => {
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
-              content={`${post.frontmatter.description}`}
+              content={`${post.frontmatter.mdescription}`}
             />
           </Helmet>
         }
